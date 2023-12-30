@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nebula Lounge - Drinks</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="bar">
+		<div class="logo">
+			<h1>Drinks</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="{{ url_for('drinks') }}">Drinks</a></li>
+				<li><a href="{{ url_for('food') }}">Food</a></li>
+				<li><a href="{{ url_for('locations') }}">Locations</a></li>
+				<li><a href="{{ url_for('about') }}">About</a></li>
+				<li><a href="{{ url_for('home') }}">Home</a></li>
+			</ul>
+		</nav>
+	</div>
+
+
+	<div class="header">
+		<h1 class="welcome-text">Taste the Cosmos with Our Interstellar Creations</h1>
+	</div>
+
+	<div class="gallery">
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink1.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink2.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink3.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink4.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink5.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink6.jpg') }}" alt="Drink image">
+		</div>
+        <div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink7.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink8.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink9.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink10.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink11.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink12.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink13.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink14.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink15.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='drinks/drink16.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='beer/beer1.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='beer/beer2.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='beer/beer3.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='beer/beer4.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='beer/beer5.jpg') }}" alt="Drink image">
+		</div>
+		<div class="gallery-item">
+			<img src="{{ url_for('static', filename='beer/beer6.jpg') }}" alt="Drink image">
+		</div>
+	</div>
+
+    <div id="modal" class="modal" onclick="closeModal()">
+        <img id="modal-image" class="modal-content">
+        <div id="caption"></div>
+      </div>
+
+	<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+	<footer class="footer">
+        <p>&copy; 2023 Nebula Lounge. All rights reserved.</p>
+    </footer>
+</body>
+</html>

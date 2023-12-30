@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nebula Lounge</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<div class="bar">
+			<div class="logo">
+				<h1>The Nebula Lounge</h1>
+			</div>
+			<ul>
+				<li><a href="{{ url_for('drinks') }}">Drinks</a></li>
+				<li><a href="{{ url_for('food') }}">Food</a></li>
+				<li><a href="{{ url_for('locations') }}">Locations</a></li>
+				<li><a href="{{ url_for('about') }}">About</a></li>
+				<li><a href="{{ url_for('home') }}">Home</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="header">
+		<h1 class="welcome-text">Sip Among The Stars at The Nebula Lounge</h1>
+	</div>
+
+	<div class="grid-container">
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar1.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar2.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar3.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar4.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar5.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar6.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar7.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar8.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar9.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar10.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar11.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar12.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar13.jpg') }}">
+		</div>
+		<div class="grid-item">
+			<img src="{{ url_for('static', filename='bar/space_bar14.jpg') }}">
+		</div>	
+	</div>
+
+	<script src="{{ url_for('static', filename='scripts.js') }}"></script>
+	<footer class="footer">
+        <p>&copy; 2023 Nebula Lounge. All rights reserved.</p>
+    </footer>
+</body>
+</html>
