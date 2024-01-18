@@ -1,3 +1,3 @@
 [codepretzels.com](https://codepretzels.com)
 # ---
-Site made with Mid Journey in 2022
+Images made with Mid Journey - 2022
